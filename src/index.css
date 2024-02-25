@@ -5,9 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   background:url('https://imgs.search.brave.com/rsQ4yV6B4lgUAMTvsCrKm55j-7sPmud6aGfr2UQ_ti4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS8yOC84/NC9RbXlOakQuanBn');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
